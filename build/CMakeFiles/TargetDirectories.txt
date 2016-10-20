@@ -1,0 +1,4 @@
+/home/bobo/code/orbslam2_3D/build/CMakeFiles/rgbd_kinect1.dir
+/home/bobo/code/orbslam2_3D/build/CMakeFiles/rgbd_my.dir
+/home/bobo/code/orbslam2_3D/build/CMakeFiles/rgbd_tum.dir
+/home/bobo/code/orbslam2_3D/build/CMakeFiles/rgbd_xtion.dir

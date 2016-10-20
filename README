@@ -1,0 +1,25 @@
+#ORB-SLAM2 + dense mapping
+**Authors:** rongbohou, email:rongbohou@163.com
+
+#Prerequisites#######################################################
+install OpenCV、Pangolin 、PCL、OPENNI
+build################################################################
+
+mkdir build ＆＆ cd build 
+cmake  .. 
+make 
+
+# Usage ##############################################################
+#在线三维地图构建和定位
+./rgbd_kinect1 
+
+'esc':exit
+'enter': save a keyframe's pose in /home/bobo/code/orbslam2_3D/data/measure_point
+'s': pause,stop slam loop
+'g':start slam loop
+
+
+#重构实验室3d，并实时定位相机
+cd /home/bobo/code/orbslam2_3D
+chmod +x rgbd_my.sh
+./rgbd_my.sh

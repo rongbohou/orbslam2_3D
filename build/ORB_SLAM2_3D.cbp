@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ORB_SLAM2_3D" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\pcl-1.7\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\usr\lib\vtk-5.8\CMake\;CMake Files\..\..\Pangolin\;CMake Files\..\..\Pangolin\build\;CMake Files\..\..\Pangolin\build\src\;CMake Files\cmake_modules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/bobo/code/orbslam2_3D/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/bobo/code/orbslam2_3D/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_kinect1">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_kinect1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_kinect1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_kinect1/fast">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_kinect1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_kinect1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_my">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_my" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_my" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_my/fast">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_my" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_my/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_tum">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_tum" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_tum" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_tum/fast">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_tum" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_tum/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_xtion">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_xtion" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_xtion" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rgbd_xtion/fast">
+         <Option output="/home/bobo/code/orbslam2_3D/bin/rgbd_xtion" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/bobo/code/orbslam2_3D/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILEDWITHC11" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add directory="/home/bobo/Pangolin/build/src/include" />
+            <Add directory="/home/bobo/Pangolin/include" />
+            <Add directory="/home/bobo/code/orbslam2_3D" />
+            <Add directory="/home/bobo/code/orbslam2_3D/include" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 rgbd_xtion/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/bobo/code/orbslam2_3D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/bobo/code/orbslam2_3D/src/rgbd_kinect1.cpp">
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/src/rgbd_my.cc">
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/src/rgbd_tum.cc">
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/src/rgbd_xtion_cc.cpp">
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/share/pcl-1.7/PCLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/share/pcl-1.7/PCLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig-Java.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig-Python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfig-Tcl.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../../../usr/lib/vtk-5.8/CMake/vtkMakeInstantiator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\CMake\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../Pangolin/build/src/PangolinConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../Pangolin/build/src/PangolinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/../../Pangolin/build/src/PangolinTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/cmake_modules/FindOpenNI2.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/home/bobo/code/orbslam2_3D/cmake_modules/FindOpenNI.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
